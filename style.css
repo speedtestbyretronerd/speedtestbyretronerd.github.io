@@ -1,0 +1,38 @@
+html, body, body > div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #fff;
+  font-family: "Rubik Mono ONe", sans-serif;
+}
+body > div {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body h1 {
+  font-size: 2.625em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+#c {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  background: #0a0a0a;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
